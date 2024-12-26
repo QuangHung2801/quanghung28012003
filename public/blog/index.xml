@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Blog Chia Sẻ Lập Trình</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Blog Chia Sẻ Lập Trình</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập Trình Java Cơ Bản</title>
+      <link>http://localhost:1313/blog/javacoban/huong-dan-java/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/javacoban/huong-dan-java/</guid>
+      <description>&lt;p&gt;Học những kiến thức cơ bản trong lập trình Java, bao gồm cấu trúc dữ liệu, vòng lặp, và cú pháp cơ bản.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;hướng-dẫn-java-cơ-bản&#34;&gt;Hướng Dẫn Java Cơ bản&lt;/h2&gt;&#xA;&lt;h2 id=&#34;javascript-basicsimgbasicpng&#34;&gt;&lt;img src=&#34;http://localhost:1313/img/basic.png&#34; alt=&#34;JavaScript Basics&#34;&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Giới Thiệu Về Lập Trình Java&#xA;Java là một ngôn ngữ lập trình mạnh mẽ, phổ biến và được sử dụng rộng rãi trong phát triển phần mềm, đặc biệt là trong các ứng dụng di động (Android), ứng dụng web, và hệ thống lớn. Một trong những điểm mạnh của Java là tính khả chuyển (portability) nhờ vào triết lý &amp;ldquo;viết một lần, chạy mọi nơi&amp;rdquo; với nền tảng Java Virtual Machine (JVM).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

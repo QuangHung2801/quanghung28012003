@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lập Trình Java Cơ Bản - Blog Chia Sẻ Lập Trình</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Blog Chia Sẻ Lập Trình" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Blog Chia Sẻ Lập Trình</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Trang Chủ</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog/">
+				
+				<span class="menu__text">Bài Viết</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">Giới Thiệu</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Lập Trình Java Cơ Bản</h1>
+			
+		</header>
+		<div class="content post__content clearfix">
+			<p>Học những kiến thức cơ bản trong lập trình Java, bao gồm cấu trúc dữ liệu, vòng lặp, và cú pháp cơ bản.</p>
+<hr>
+<h2 id="hướng-dẫn-java-cơ-bản">Hướng Dẫn Java Cơ bản</h2>
+<h2 id="javascript-basicsimgbasicpng"><img src="/img/basic.png" alt="JavaScript Basics"></h2>
+<p>Giới Thiệu Về Lập Trình Java
+Java là một ngôn ngữ lập trình mạnh mẽ, phổ biến và được sử dụng rộng rãi trong phát triển phần mềm, đặc biệt là trong các ứng dụng di động (Android), ứng dụng web, và hệ thống lớn. Một trong những điểm mạnh của Java là tính khả chuyển (portability) nhờ vào triết lý &ldquo;viết một lần, chạy mọi nơi&rdquo; với nền tảng Java Virtual Machine (JVM).</p>
+<p>Trong hướng dẫn này, chúng ta sẽ tìm hiểu các khái niệm cơ bản của Java, bao gồm cấu trúc chương trình, kiểu dữ liệu, và cách viết một chương trình Java đơn giản.</p>
+<p>Dưới đây là nội dung chi tiết cho một chủ đề về lập trình Java cơ bản, từ giới thiệu đến các khái niệm cơ bản nhất của Java:</p>
+<p>Trong hướng dẫn này, chúng ta sẽ tìm hiểu các khái niệm cơ bản của Java, bao gồm cấu trúc chương trình, kiểu dữ liệu, và cách viết một chương trình Java đơn giản.</p>
+<p>Cấu Trúc Cơ Bản Của Một Chương Trình Java
+Một chương trình Java cơ bản bao gồm các thành phần chính như lớp (class), phương thức (method), và cú pháp cơ bản. Dưới đây là một ví dụ đơn giản:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Giải thích:</p>
+<p>public class HelloWorld: Định nghĩa một lớp có tên là HelloWorld. Tất cả chương trình Java đều phải được viết trong một lớp.
+public static void main(String[] args): Đây là phương thức main - phương thức chính mà Java tìm kiếm và bắt đầu thực thi chương trình.
+System.out.println(&ldquo;Hello, World!&rdquo;);: Lệnh này in ra dòng chữ &ldquo;Hello, World!&rdquo; lên màn hình.</p>
+<p>Kiểu Dữ Liệu Và Biến Trong Java
+Java hỗ trợ nhiều kiểu dữ liệu khác nhau, bao gồm các kiểu nguyên thủy (primitive types) và kiểu tham chiếu (reference types). Các kiểu nguyên thủy phổ biến bao gồm:</p>
+<p>int: Kiểu số nguyên.
+double: Kiểu số thực.
+boolean: Kiểu giá trị đúng/sai.
+char: Kiểu ký tự.
+Ví Dụ về Khai Báo Biến:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age <span style="color:#f92672">=</span> 25;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> price <span style="color:#f92672">=</span> 19.<span style="color:#a6e22e">99</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">boolean</span> isStudent <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">char</span> grade <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;A&#39;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="javascript-basicsimgjava-topic-advancedpng">title: &ldquo;Xây Dựng Ứng Dụng Web Với Java&rdquo;
+date: 2024-12-25
+<img src="/img/java-topic-advanced.png" alt="JavaScript Basics"></h2>
+<p>Học cách xây dựng các ứng dụng web bằng Java với Spring Boot và Hibernate.</p>
+<hr>
+<h2 id="javascript-basicsimgjava-topic-advancedpng-1">title: &ldquo;Tích Hợp Cơ Sở Dữ Liệu Với Java&rdquo;
+date: 2024-12-25
+<img src="/img/java-topic-advanced.png" alt="JavaScript Basics"></h2>
+<p>Hướng dẫn kết nối và làm việc với cơ sở dữ liệu như MySQL, PostgreSQL trong Java.</p>
+<hr>
+<h2 id="javascript-basicsimgjava-topic-advancedpng-2">title: &ldquo;Lập Trình Hướng Đối Tượng Với Java&rdquo;
+date: 2024-12-25
+<img src="/img/java-topic-advanced.png" alt="JavaScript Basics"></h2>
+<p>Hiểu rõ các khái niệm về lập trình hướng đối tượng như lớp, đối tượng, kế thừa và đa hình trong Java.</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Blog Chia Sẻ Lập Trình.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

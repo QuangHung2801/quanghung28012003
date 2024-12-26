@@ -13,7 +13,7 @@ css = ["/css/styles.css"]
   <!-- Thông tin bài viết và lượt theo dõi -->
   <div style="margin-top: 10px; font-size: 16px; font-weight: bold;">
     <p>Số bài viết: <span style="color: #007bff;">10</span></p>
-    <p>Số người theo dõi: <span style="color: #007bff;">150</span></p>
+    <p>Số người theo dõit: <span style="color: #007bff;">150</span></p>
   </div>
 </div>
 

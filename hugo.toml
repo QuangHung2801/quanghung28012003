@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://quanghungblog.netlify.app'
 languageCode = 'en-us'
 title = 'Blog Chia Sẻ Lập Trình'
 theme = "mainroad"
@@ -15,14 +15,9 @@ theme = "mainroad"
     weight = 1
 
   [[menu.main]]
-  name = "Java"
-  url = "/blog/huong-dan-java/"  # Địa chỉ dẫn đến bài viết về Java
-  weight = 2
-
- [[menu.main]]
-  name = "JavaScript"
-  url = "/blog/huong-dan-javascript/"  # Địa chỉ dẫn đến bài viết về JavaScript
-  weight = 3
+    name = "Bài Viết"
+    url = "/blog/"
+    weight = 2
 
   [[menu.main]]
     name = "Giới Thiệu"
@@ -33,3 +28,5 @@ theme = "mainroad"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+      
