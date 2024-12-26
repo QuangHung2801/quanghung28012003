@@ -54,24 +54,3 @@ char grade = 'A';
 ```
 ---
 
-title: "Xây Dựng Ứng Dụng Web Với Java"
-date: 2024-12-25
-![JavaScript Basics](/img/java-topic-advanced.png)
----
-Học cách xây dựng các ứng dụng web bằng Java với Spring Boot và Hibernate.
-
----
-
-title: "Tích Hợp Cơ Sở Dữ Liệu Với Java"
-date: 2024-12-25
-![JavaScript Basics](/img/java-topic-advanced.png)
----
-Hướng dẫn kết nối và làm việc với cơ sở dữ liệu như MySQL, PostgreSQL trong Java.
-
----
-
-title: "Lập Trình Hướng Đối Tượng Với Java"
-date: 2024-12-25
-![JavaScript Basics](/img/java-topic-advanced.png)
----
-Hiểu rõ các khái niệm về lập trình hướng đối tượng như lớp, đối tượng, kế thừa và đa hình trong Java.

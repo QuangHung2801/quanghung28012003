@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blogs - Blog Chia Sẻ Lập Trình</title>
+	<title>Danh mục Bài Viết - Blog Chia Sẻ Lập Trình</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,8 +68,65 @@
 			
 <main class="main list" role="main">
 	<header class="main__header">
-		<h1 class="main__title">Blogs</h1>
-	</header><article class="list__item post">
+		<h1 class="main__title">Danh mục Bài Viết</h1>
+	</header>
+	<div class="content main__content clearfix">
+		<ul>
+  <li>
+    <a href="/blog/javacoban/huong-dan-java">Java Cơ Bản</a>
+  </li>
+  <li>
+    <a href="/blog/javascriptcoban/huong-dan-javascript">JavaScript Cơ Bản</a>
+  </li>
+</ul>
+
+	</div><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/blog/javascriptcoban/huong-dan-javascript/" rel="bookmark">
+			Hướng Dẫn JavaScript Cơ Bản
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>JavaScript là ngôn ngữ lập trình phổ biến trên web, dùng để tạo các trang web tương tác. Bài viết này sẽ hướng dẫn bạn các khái niệm cơ bản về JavaScript cùng với ví dụ minh họa.</p>
+<ol>
+<li>Khai báo biến
+Trong JavaScript, bạn có thể khai báo biến bằng var, let, hoặc const.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Sử dụng var (ít dùng trong ES6 trở đi)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Sử dụng let (dùng khi giá trị biến có thể thay đổi)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Sử dụng const (dùng cho giá trị không thay đổi)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">z</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">x</span>, <span style="color:#a6e22e">y</span>, <span style="color:#a6e22e">z</span>);
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">``` // Kết quả: 10 20 30
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2. Câu lệnh điều kiện
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Câu lệnh điều kiện (if, else if, else) giúp kiểm tra điều kiện và thực hiện hành động tương ứng.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">```</span><span style="color:#a6e22e">javascript</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">18</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">age</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">18</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Bạn chưa đủ tuổi.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">age</span> <span style="color:#f92672">===</span> <span style="color:#ae81ff">18</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Chúc mừng bạn vừa đủ tuổi!&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Bạn đã đủ tuổi.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol start="3">
+<li>Vòng lặp
+Vòng lặp dùng để thực hiện một hành động nhiều lần.</li>
+</ol>
+<p>Ví dụ vòng lặp for:</p>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
