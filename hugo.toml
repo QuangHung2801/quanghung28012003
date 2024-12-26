@@ -1,7 +1,7 @@
-baseURL = 'http://quanghung2801.github.io/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Blog Chia Sẻ Lập Trình'
-theme = "Mainroad"
+theme = "mainroad"
 
 [Params]
 [Params.sidebar]
