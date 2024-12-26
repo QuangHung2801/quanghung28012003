@@ -1,4 +1,4 @@
 [submodule "themes/mainroad"]
-path=themes/mainroad
+path= themes/mainroad
 url="https://github.com/vimux/mainroad.git"
-branch="main"
+branch= main
