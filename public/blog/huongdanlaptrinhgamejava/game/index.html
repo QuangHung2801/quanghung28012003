@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game - Blog Chia Sẻ Lập Trình</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Blog Chia Sẻ Lập Trình" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Blog Chia Sẻ Lập Trình</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Trang Chủ</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog/list/_list">
+				
+				<span class="menu__text">Bài Viết</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">Giới Thiệu</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Game</h1>
+			
+		</header>
+		<div class="content post__content clearfix">
+			<p>Nội dung lập trình về game bằng Java
+Trong bài viết này, chúng ta sẽ tìm hiểu về cách phát triển một trò chơi cơ bản bằng ngôn ngữ lập trình Java. Java là một ngôn ngữ mạnh mẽ và phổ biến cho việc phát triển phần mềm, bao gồm cả các trò chơi. Chúng ta sẽ xây dựng một trò chơi đơn giản sử dụng thư viện javax.swing để tạo giao diện người dùng (GUI) và sử dụng các tính năng cơ bản của Java để xử lý logic của trò chơi.</p>
+<ol>
+<li>Giới thiệu về trò chơi
+Chúng ta sẽ phát triển một trò chơi cơ bản với các tính năng như:</li>
+</ol>
+<p>Một đối tượng có thể di chuyển trên màn hình.
+Các sự kiện bàn phím để điều khiển đối tượng.
+Một vòng lặp để cập nhật trò chơi và vẽ các đối tượng trên màn hình.
+2. Cấu trúc của ứng dụng game
+Trong ứng dụng này, chúng ta sẽ sử dụng các lớp chính:</p>
+<p>GamePanel: Lớp này sẽ hiển thị tất cả các đối tượng và xử lý các sự kiện.
+Game: Lớp chính để khởi động game và tạo đối tượng GamePanel.
+Player: Lớp mô tả đối tượng người chơi (ví dụ: một hình chữ nhật hoặc hình tròn).
+3. Mã nguồn cơ bản
+Dưới đây là một ví dụ cơ bản về cách lập trình trò chơi sử dụng Java:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.swing.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.awt.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.awt.event.KeyAdapter;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.awt.event.KeyEvent;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Game</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        JFrame frame <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JFrame(<span style="color:#e6db74">&#34;Game Example&#34;</span>);
+</span></span><span style="display:flex;"><span>        GamePanel panel <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GamePanel();
+</span></span><span style="display:flex;"><span>        frame.<span style="color:#a6e22e">setSize</span>(800, 600);
+</span></span><span style="display:flex;"><span>        frame.<span style="color:#a6e22e">setDefaultCloseOperation</span>(JFrame.<span style="color:#a6e22e">EXIT_ON_CLOSE</span>);
+</span></span><span style="display:flex;"><span>        frame.<span style="color:#a6e22e">add</span>(panel);
+</span></span><span style="display:flex;"><span>        frame.<span style="color:#a6e22e">setVisible</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GamePanel</span> <span style="color:#66d9ef">extends</span> JPanel {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Player player;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">GamePanel</span>() {
+</span></span><span style="display:flex;"><span>        player <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Player(100, 100); <span style="color:#75715e">// Vị trí ban đầu của người chơi</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setFocusable</span>(<span style="color:#66d9ef">true</span>); <span style="color:#75715e">// Để bắt sự kiện bàn phím</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">addKeyListener</span>(<span style="color:#66d9ef">new</span> KeyAdapter() {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">keyPressed</span>(KeyEvent e) {
+</span></span><span style="display:flex;"><span>                player.<span style="color:#a6e22e">move</span>(e.<span style="color:#a6e22e">getKeyCode</span>()); <span style="color:#75715e">// Di chuyển người chơi theo phím</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>        Timer timer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Timer(1000 <span style="color:#f92672">/</span> 60, e <span style="color:#f92672">-&gt;</span> repaint()); <span style="color:#75715e">// Cập nhật 60 lần mỗi giây</span>
+</span></span><span style="display:flex;"><span>        timer.<span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">paintComponent</span>(Graphics g) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">paintComponent</span>(g);
+</span></span><span style="display:flex;"><span>        player.<span style="color:#a6e22e">draw</span>(g); <span style="color:#75715e">// Vẽ người chơi lên màn hình</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Player</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> x, y;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> SIZE <span style="color:#f92672">=</span> 50;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Player</span>(<span style="color:#66d9ef">int</span> x, <span style="color:#66d9ef">int</span> y) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> x;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> y;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">move</span>(<span style="color:#66d9ef">int</span> keyCode) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">switch</span> (keyCode) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">case</span> KeyEvent.<span style="color:#a6e22e">VK_LEFT</span>:  <span style="color:#75715e">// Di chuyển sang trái</span>
+</span></span><span style="display:flex;"><span>                x <span style="color:#f92672">-=</span> 5;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">case</span> KeyEvent.<span style="color:#a6e22e">VK_RIGHT</span>: <span style="color:#75715e">// Di chuyển sang phải</span>
+</span></span><span style="display:flex;"><span>                x <span style="color:#f92672">+=</span> 5;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">case</span> KeyEvent.<span style="color:#a6e22e">VK_UP</span>:    <span style="color:#75715e">// Di chuyển lên trên</span>
+</span></span><span style="display:flex;"><span>                y <span style="color:#f92672">-=</span> 5;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">case</span> KeyEvent.<span style="color:#a6e22e">VK_DOWN</span>:  <span style="color:#75715e">// Di chuyển xuống dưới</span>
+</span></span><span style="display:flex;"><span>                y <span style="color:#f92672">+=</span> 5;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>(Graphics g) {
+</span></span><span style="display:flex;"><span>        g.<span style="color:#a6e22e">setColor</span>(Color.<span style="color:#a6e22e">RED</span>);
+</span></span><span style="display:flex;"><span>        g.<span style="color:#a6e22e">fillRect</span>(x, y, SIZE, SIZE); <span style="color:#75715e">// Vẽ người chơi dưới dạng hình vuông</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol start="4">
+<li>Giải thích mã nguồn:
+GamePanel: Lớp này chịu trách nhiệm vẽ người chơi lên màn hình và xử lý các sự kiện bàn phím. Khi người chơi nhấn một phím, vị trí của đối tượng Player sẽ thay đổi và được vẽ lại trên màn hình.
+Player: Lớp này đại diện cho người chơi trong trò chơi. Nó có phương thức move để di chuyển theo các phím mũi tên và phương thức draw để vẽ người chơi dưới dạng một hình vuông.
+Game: Lớp này khởi động và hiển thị cửa sổ trò chơi. Nó tạo một đối tượng GamePanel và thêm nó vào cửa sổ.</li>
+<li>Các bước phát triển thêm:
+Sau khi hoàn thành trò chơi cơ bản này, bạn có thể mở rộng thêm các tính năng như:</li>
+</ol>
+<p>Thêm đối tượng khác: Bạn có thể thêm các đối tượng khác như kẻ thù, vật phẩm, v.v.
+Điểm số: Thêm hệ thống điểm số để theo dõi kết quả trò chơi.
+Âm thanh: Sử dụng thư viện âm thanh của Java để thêm nhạc nền hoặc hiệu ứng âm thanh.
+Đồ họa đẹp hơn: Thay thế hình vuông của người chơi bằng hình ảnh hoặc các đồ họa phức tạp hơn.
+6. Kết luận
+Lập trình game bằng Java là một cách tuyệt vời để học và thực hành các kỹ năng lập trình cơ bản cũng như các kỹ thuật lập trình hướng đối tượng. Qua ví dụ trên, bạn có thể bắt đầu xây dựng các trò chơi đơn giản và phát triển chúng thành những trò chơi phức tạp hơn trong tương lai.</p>
+
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Blog Chia Sẻ Lập Trình.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

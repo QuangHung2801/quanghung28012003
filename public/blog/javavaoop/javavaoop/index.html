@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavavaOOP - Blog Chia Sẻ Lập Trình</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Blog Chia Sẻ Lập Trình" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Blog Chia Sẻ Lập Trình</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Trang Chủ</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/blog/list/_list">
+				
+				<span class="menu__text">Bài Viết</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">Giới Thiệu</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">JavavaOOP</h1>
+			
+		</header>
+		<div class="content post__content clearfix">
+			<p>Giới thiệu về OOP trong Java:
+Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên việc sử dụng các đối tượng và lớp để tổ chức mã nguồn. Java là một ngôn ngữ lập trình hướng đối tượng hoàn toàn, điều này có nghĩa là mọi thứ trong Java đều là một đối tượng, và mỗi đối tượng được tạo ra từ các lớp.</p>
+<p>Các nguyên lý cơ bản của OOP:
+Encapsulation (Đóng gói): Là việc ẩn giấu thông tin bên trong một lớp và chỉ cung cấp các phương thức để tương tác với dữ liệu của lớp đó. Điều này giúp bảo vệ dữ liệu khỏi các thay đổi ngoài ý muốn.
+Inheritance (Kế thừa): Cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng mã nguồn và giảm thiểu sự trùng lặp.
+Polymorphism (Đa hình): Cho phép các đối tượng của các lớp khác nhau có thể được xử lý thông qua cùng một phương thức hoặc lớp cơ sở.
+Abstraction (Trừu tượng): Là việc che giấu các chi tiết triển khai và chỉ cung cấp các giao diện cần thiết để sử dụng.
+Ví dụ mã nguồn đơn giản:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Animal makes a sound&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Dog</span> <span style="color:#66d9ef">extends</span> Animal {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Dog barks&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        Animal animal <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Animal();
+</span></span><span style="display:flex;"><span>        animal.<span style="color:#a6e22e">sound</span>();
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        Animal dog <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Dog();
+</span></span><span style="display:flex;"><span>        dog.<span style="color:#a6e22e">sound</span>();  <span style="color:#75715e">// Outputs: Dog barks</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 Blog Chia Sẻ Lập Trình.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
