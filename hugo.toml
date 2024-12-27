@@ -16,7 +16,7 @@ theme = "mainroad"
 
   [[menu.main]]
     name = "Bài Viết"
-    url = "/blog/"
+    url = "/blog/list/_list"
     weight = 2
 
   [[menu.main]]
