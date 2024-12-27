@@ -1,15 +1,15 @@
----
-title: "Giới thiệu bản thân"
-date : "2024-12-25T18:04:59+07:00"
-description : "Giới thiệu về bản thân và kinh nghiệm lập trình"
-css : ["/css/styles.css"]
----
+ +++
+title = "Blog của Nguyễn Quang Hùng"
+date = "2024-12-25T18:04:59+07:00"
+description = "Giới thiệu về bản thân và kinh nghiệm lập trình"
+css = ["/css/styles.css"]
++++
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <!-- Khối Avatar -->
   <div style="position: relative; display: inline-block; width: 1200px;height: 300px; text-align: center; padding: 10px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
   <!-- Ảnh Avatar -->
-  <img src="img/avatar1.png" alt="Avatar" style="width: 200px; height: 200px; border-radius: 10px;">
+  <img src="/img/avatar1.png" alt="Avatar" style="width: 200px; height: 200px; border-radius: 10px;">
   <!-- Thông tin bài viết và lượt theo dõi -->
   <div style="margin-top: 10px; font-size: 16px; font-weight: bold;">
     <p>Số bài viết: <span style="color: #007bff;">10</span></p>
