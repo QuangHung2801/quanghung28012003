@@ -4,68 +4,115 @@ date = "2024-12-25T18:04:59+07:00"
 description = "Giới thiệu về bản thân và kinh nghiệm lập trình"
 css = ["/css/styles.css"]
 +++
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<div style="display: flex; align-items: center; gap: 20px;">
-  <!-- Khối Avatar -->
-  <div style="position: relative; display: inline-block; width: 1200px;height: 300px; text-align: center; padding: 10px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  <!-- Ảnh Avatar -->
-  <img src="/img/avatar1.png" alt="Avatar" style="width: 200px; height: 200px; border-radius: 10px;">
-  <!-- Thông tin bài viết và lượt theo dõi -->
-  <div style="margin-top: 10px; font-size: 16px; font-weight: bold; text-align: left; padding-left: 20px;">
-      <p style="color:Red;">
-        <i class="fa fa-envelope" style="color: black; margin-right: 5px;"></i>
-        <span style="color: black;">nguyenquanghung@gmail.com</span>
-      </p>
-      <p style="color:Red;">
-        <i class="fa fa-phone" style="color: black; margin-right: 5px;"></i>
-        <span style="color: black;">0337070369</span>
-      </p>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Nguyễn Quang Hùng</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+    }
+    .header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+    .header p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .section ul li {
+      margin-bottom: 10px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <img src="/img/avatar1.png" alt="Nguyễn Quang Hùng">
+      <h1>Nguyễn Quang Hùng</h1>
+      <p>Backend Developer</p>
+      <p><i class="fa fa-envelope"></i> nguyenquanghung@gmail.com</p>
+      <p><i class="fa fa-phone"></i> 0337070369</p>
     </div>
-</div>
-
-
-  <!-- Khối Giới Thiệu -->
-  <div style="padding-left: 30px">
-    <h1>Giới Thiệu Bản Thân</h1>
-    <p style="padding-right: 30px; text-align: justify; font-size: 16px;">
-      Xin chào! Tôi là Nguyễn Quang Hùng, một sinh viên ngành Kỹ thuật phần mềm tại Đại học Công nghệ TP.HCM.
-      Tôi yêu thích việc học hỏi và thực hành các công nghệ mới. Tôi đã từng tiếp xúc qua ngôn ngữ lập trình 
-      Java và JavaScript nên tôi luôn muốn chia sẻ những gì tôi đã tiếp xúc được đến cho mọi người biết 
-      cũng như những trải nghiệm tôi đạt được.
-    </p>
+    <div class="section">
+      <h2>Giới thiệu</h2>
+      <p>Tôi mong muốn trở thành một chuyên gia lập trình backend, nắm vững các công nghệ và kỹ thuật tiên tiến để xây dựng các ứng dụng web và di động chất lượng cao. Đồng thời, tôi không ngừng học hỏi và cải thiện bản thân để đóng góp tốt nhất vào sự phát triển của đội ngũ.</p>
+    </div>
+    <div class="section">
+      <h2>Kỹ Năng</h2>
+      <ul>
+        <li>Thành thạo Java và JavaScript</li>
+        <li>Làm việc với Spring Boot, Hibernate, Spring Data JPA</li>
+        <li>Phát triển ứng dụng di động bằng Flutter</li>
+        <li>Quản lý cơ sở dữ liệu: MySQL, PostgreSQL</li>
+        <li>Sử dụng thành thạo Git và các công cụ CI/CD</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Kinh Nghiệm và Dự Án</h2>
+      <ul>
+        <li>Phát triển ứng dụng web với Spring Boot, xây dựng API RESTful và tích hợp Hibernate</li>
+        <li>Thiết kế hệ thống API hỗ trợ giao tiếp frontend-backend</li>
+        <li>Xây dựng ứng dụng di động sử dụng Flutter</li>
+        <li>Làm việc với các hệ thống cơ sở dữ liệu lớn</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Hoạt Động</h2>
+      <ul>
+        <li>Tham gia các cuộc thi lập trình</li>
+        <li>Học hỏi và chia sẻ công nghệ tại các hội thảo</li>
+      </ul>
+    </div>
+    <div class="footer">
+      <p>Bản quyền &copy; 2024 Nguyễn Quang Hùng</p>
+    </div>
   </div>
-</div>
-
-<div style="margin-top: 20px;"></div>
-
-## Kinh Nghiệm
-<ul> <li>Phát triển ứng dụng web với Spring Boot, tập trung vào việc xây dựng các API RESTful và tích hợp các công nghệ như Hibernate, Spring Data JPA, và Spring Security.</li> <li>Thiết kế và triển khai hệ thống API REST để hỗ trợ giao tiếp giữa frontend và backend, đảm bảo hiệu suất cao và dễ dàng mở rộng.</li> <li>Phát triển ứng dụng di động bằng Flutter, bao gồm giao diện người dùng tùy chỉnh và tích hợp các dịch vụ backend thông qua API.</li> <li>Xây dựng các dự án sử dụng Java và JavaScript, bao gồm ứng dụng quản lý, thương mại điện tử và hệ thống quản lý nội dung.</li> <li>Kinh nghiệm làm việc với các cơ sở dữ liệu như MySQL, PostgreSQL, và MongoDB, tối ưu hóa truy vấn và thiết kế mô hình dữ liệu.</li> <li>Thành thạo việc triển khai ứng dụng trên các môi trường khác nhau, bao gồm server nội bộ và nền tảng đám mây (AWS, Heroku).</li> <li>Kỹ năng xử lý lỗi và gỡ rối hiệu quả, cải thiện tính ổn định và bảo mật của hệ thống.</li> <li>Hợp tác trong nhóm phát triển Agile, sử dụng các công cụ quản lý dự án như JIRA và Git để đảm bảo tiến độ và chất lượng dự án.</li> </ul>
-
-## Sở Thích
-
-<ul>
-  <li>Khám phá các công nghệ mới.</li>
-  <li>Chơi game và nghe nhạc thư giãn.</li>
-</ul>
-
-## Bài Viết Gần Đây
-
-<ul>
-  <li><a href="/blog/Huong-dan-Java/">Cách Tạo Blog với Hugo</a></li>
-  <li><a href="/blog/huong-dan-javascript/">Kinh Nghiệm Học Flutter</a></li>
-  <li><a href="/posts/hanh-trinh-java/">Hành Trình Lập Trình Java</a></li>
-  <li><a href="/posts/tim-hieu-spring-boot/">Tìm Hiểu Spring Boot</a></li>
-</ul>
-
-## Danh Mục
-
-<ul>
-  <li>Công Nghệ</li>
-  <li>Lập Trình</li>
-  <li>Di Động</li>
-  <li>Web</li>
-</ul>
-
-<footer>
-  <p>Bản quyền &copy; 2024 Nguyễn Quang Hùng</p>
-</footer>
+</body>
+</html>

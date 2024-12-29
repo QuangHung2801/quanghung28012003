@@ -6,6 +6,14 @@
     <description>Recent content on Blog Chia Sẻ Lập Trình</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 18:04:59 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog của Nguyễn Quang Hùng</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 25 Dec 2024 18:04:59 +0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;vi&#34;&gt;&#xA;&lt;head&gt;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;  &lt;title&gt;CV Nguyễn Quang Hùng&lt;/title&gt;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css&#34;&gt;&#xA;  &lt;style&gt;&#xA;    body {&#xA;      font-family: Arial, sans-serif;&#xA;      line-height: 1.6;&#xA;      margin: 0;&#xA;      padding: 0;&#xA;      background-color: #f4f4f9;&#xA;      color: #333;&#xA;    }&#xA;    .container {&#xA;      max-width: 900px;&#xA;      margin: 20px auto;&#xA;      background: #fff;&#xA;      border-radius: 10px;&#xA;      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);&#xA;      padding: 20px;&#xA;    }&#xA;    .header {&#xA;      text-align: center;&#xA;    }&#xA;    .header img {&#xA;      width: 150px;&#xA;      height: 150px;&#xA;      border-radius: 50%;&#xA;      margin-bottom: 10px;&#xA;    }&#xA;    .header h1 {&#xA;      margin: 10px 0;&#xA;      font-size: 24px;&#xA;    }&#xA;    .header p {&#xA;      margin: 5px 0;&#xA;      color: #555;&#xA;    }&#xA;    .section {&#xA;      margin: 20px 0;&#xA;    }&#xA;    .section h2 {&#xA;      font-size: 20px;&#xA;      margin-bottom: 10px;&#xA;      color: #444;&#xA;      border-bottom: 2px solid #ddd;&#xA;      padding-bottom: 5px;&#xA;    }&#xA;    .section ul {&#xA;      list-style-type: none;&#xA;      padding: 0;&#xA;    }&#xA;    .section ul li {&#xA;      margin-bottom: 10px;&#xA;    }&#xA;    .footer {&#xA;      text-align: center;&#xA;      margin-top: 20px;&#xA;      font-size: 14px;&#xA;      color: #666;&#xA;    }&#xA;  &lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;!-- Header --&gt;&#xA;    &lt;div class=&#34;header&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/img/avatar1.png&#34; alt=&#34;Nguyễn Quang Hùng&#34;&gt;&#xA;      &lt;h1&gt;Nguyễn Quang Hùng&lt;/h1&gt;&#xA;      &lt;p&gt;Backend Developer&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
