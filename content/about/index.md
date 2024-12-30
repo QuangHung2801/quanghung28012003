@@ -68,6 +68,43 @@ css = ["/css/styles.css"]
       font-size: 14px;
       color: #666;
     }
+      .education, .achievements {
+      margin: 20px 0;
+    }
+    .education-card {
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    .certificates {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .certificate {
+      background: #fff;
+      width: 250px;
+      margin: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .certificate:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .certificate img {
+      width: 100%;
+      height: auto;
+    }
+    .certificate h3 {
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -110,8 +147,42 @@ css = ["/css/styles.css"]
         <li>Học hỏi và chia sẻ công nghệ tại các hội thảo</li>
       </ul>
     </div>
-    <div class="footer">
-      <p>Bản quyền &copy; 2024 Nguyễn Quang Hùng</p>
+    <div class="education section">
+      <h2>Học vấn</h2>
+      <div class="education-card">
+        <p><strong>Kỹ sư Công nghệ phần mềm</strong></p>
+        <p>Đại học công nghệ Thành phố Hồ Chí Minh - HUTECH</p>
+        <p>GPA: 3.25/4.0</p>
+        <p>Đang trong quá trình học tập và rèn luyện tại trường Đại học công nghệ Thành phố Hồ Chí Minh - HUTECH.</p>
+      </div>
+    </div>
+  <div class="achievements section">
+  <h2>Thành tựu</h2>
+  <div class="certificates">
+    <div class="certificate">
+      <a href="https://drive.google.com/file/d/1CpY9An5-eCchn3v-yrn2HHNL_LGWSM5e/view?usp=drive_link" target="_blank">
+        <img src="/img/javascript-essentials-1.png" alt="JavaScript Essentials 1">
+      </a>
+      <h3>JavaScript Essentials 1 course</h3>
+      <p>Tôi đã hoàn thành chứng chỉ khóa học JavaScript cơ bản 1 tại Cisco Networking Academy</p>
+    </div>
+    <div class="certificate">
+      <a href="https://drive.google.com/file/d/1h0Dee40AN6I_j4WTEzHIVY5KkznZUMPl/view?usp=drive_link" target="_blank">
+        <img src="/img/networking-basics.png" alt="Networking Basics">
+      </a>
+      <h3>Networking Basics course</h3>
+      <p>Chứng chỉ này ghi nhận khả năng thiết kế và quản lý hệ thống mạng cơ bản.</p>
+    </div>
+    <div class="certificate">
+      <a href="https://drive.google.com/file/d/1DmYSbvXP0E6XLXtzbmBfVOE4Uut5BVqs/view?usp=drive_link" target="_blank">
+        <img src="/img/javascript-essentials-2.png" alt="JavaScript Essentials 2">
+      </a>
+      <h3>JavaScript Essentials 2 course</h3>
+      <p>Tôi đã hoàn thành khóa học JavaScript nâng cao tại Cisco Networking Academy</p>
+    </div>
+  </div>
+</div>
+
     </div>
   </div>
 </body>
