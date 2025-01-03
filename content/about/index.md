@@ -113,7 +113,7 @@ css = ["/css/styles.css"]
     <div class="header">
       <img src="/img/avatar1.png" alt="Nguyễn Quang Hùng">
       <h1>Nguyễn Quang Hùng</h1>
-      <p>Mobile Developer</p>
+      <p>MOBILE DEVELOPER</p>
       <p><i class="fa fa-envelope"></i> nguyenquanghung@gmail.com</p>
       <p><i class="fa fa-phone"></i> 0337070369</p>
     </div>
