@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>JavavaOOP - Blog Chia Sẻ Lập Trình</title>
+	<title> - Blog Chia Sẻ Lập Trình</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,18 +68,82 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">JavavaOOP</h1>
+			<h1 class="post__title"></h1>
 			
 		</header>
 		<div class="content post__content clearfix">
-			<p>Giới thiệu về OOP trong Java:
-Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên việc sử dụng các đối tượng và lớp để tổ chức mã nguồn. Java là một ngôn ngữ lập trình hướng đối tượng hoàn toàn, điều này có nghĩa là mọi thứ trong Java đều là một đối tượng, và mỗi đối tượng được tạo ra từ các lớp.</p>
-<p>Các nguyên lý cơ bản của OOP:
-Encapsulation (Đóng gói): Là việc ẩn giấu thông tin bên trong một lớp và chỉ cung cấp các phương thức để tương tác với dữ liệu của lớp đó. Điều này giúp bảo vệ dữ liệu khỏi các thay đổi ngoài ý muốn.
-Inheritance (Kế thừa): Cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng mã nguồn và giảm thiểu sự trùng lặp.
-Polymorphism (Đa hình): Cho phép các đối tượng của các lớp khác nhau có thể được xử lý thông qua cùng một phương thức hoặc lớp cơ sở.
-Abstraction (Trừu tượng): Là việc che giấu các chi tiết triển khai và chỉ cung cấp các giao diện cần thiết để sử dụng.
-Ví dụ mã nguồn đơn giản:</p>
+			<h1 id="giới-thiệu-về-oop-trong-java">Giới thiệu về OOP trong Java:</h1>
+<p>Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên việc sử dụng các đối tượng và lớp để tổ chức mã nguồn. Java là một ngôn ngữ lập trình hướng đối tượng hoàn toàn, điều này có nghĩa là mọi thứ trong Java đều là một đối tượng, và mỗi đối tượng được tạo ra từ các lớp.</p>
+<h1 id="các-nguyên-lý-cơ-bản-của-oop">Các nguyên lý cơ bản của OOP:</h1>
+<ol>
+<li>Encapsulation (Đóng Gói)
+Đóng gói là việc ẩn giấu thông tin chi tiết của một lớp và chỉ cung cấp các phương thức công khai (public) để tương tác với dữ liệu của lớp đó.
+Điều này giúp bảo vệ dữ liệu khỏi bị truy cập trái phép hoặc thay đổi ngoài ý muốn.
+Ví dụ: Sử dụng các phương thức get và set để truy xuất hoặc thay đổi giá trị của thuộc tính trong một lớp.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Student</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String name;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getName</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setName</span>(String name) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>} 
+</span></span></code></pre></div><p>Inheritance (Kế thừa): Cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng mã nguồn và giảm thiểu sự trùng lặp.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">eat</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;This animal eats food.&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cat</span> <span style="color:#66d9ef">extends</span> Animal {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">meow</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;The cat meows.&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Polymorphism (Đa hình): Cho phép các đối tượng của các lớp khác nhau có thể được xử lý thông qua cùng một phương thức hoặc lớp cơ sở.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Shape</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Drawing a shape&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Circle</span> <span style="color:#66d9ef">extends</span> Shape {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">draw</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Drawing a circle&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        Shape shape <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Circle();
+</span></span><span style="display:flex;"><span>        shape.<span style="color:#a6e22e">draw</span>();  <span style="color:#75715e">// Outputs: Drawing a circle</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Abstraction (Trừu tượng):
+Trừu tượng là việc che giấu các chi tiết triển khai cụ thể và chỉ cung cấp giao diện bên ngoài để người dùng tương tác.
+Java cung cấp hai cách để đạt được tính trừu tượng:
+Abstract Class: Lớp trừu tượng có thể chứa các phương thức không được triển khai.
+Interface: Giao diện chứa các phương thức trừu tượng hoàn toàn.</p>
+<pre tabindex="0"><code>abstract class Animal {
+    abstract void makeSound();
+
+    public void eat() {
+        System.out.println(&#34;This animal eats food.&#34;);
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println(&#34;Dog barks&#34;);
+    }
+}
+</code></pre><p>Ví dụ mã nguồn đơn giản:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>() {
 </span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Animal makes a sound&#34;</span>);
@@ -102,7 +166,14 @@ Ví dụ mã nguồn đơn giản:</p>
 </span></span><span style="display:flex;"><span>        dog.<span style="color:#a6e22e">sound</span>();  <span style="color:#75715e">// Outputs: Dog barks</span>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+</span></span></code></pre></div><h1 id="lợi-ích-của-oop">Lợi Ích Của OOP</h1>
+<ul>
+<li><strong>Tái sử dụng mã nguồn</strong>: Kế thừa giúp giảm sự trùng lặp và dễ dàng tái sử dụng mã.</li>
+<li><strong>Dễ duy trì và nâng cấp</strong>: Các lớp độc lập và đóng gói giúp quản lý dự án lớn hiệu quả hơn.</li>
+<li><strong>Tăng tính bảo mật</strong>: Encapsulation bảo vệ dữ liệu, kiểm soát cách truy cập và sửa đổi.</li>
+<li><strong>Tính linh hoạt cao</strong>: Polymorphism cho phép xử lý các đối tượng một cách thống nhất.</li>
+</ul>
+
 		</div>
 	</article>
 </main>
@@ -117,7 +188,7 @@ Ví dụ mã nguồn đơn giản:</p>
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2024 Blog Chia Sẻ Lập Trình.
+			&copy; 2025 Blog Chia Sẻ Lập Trình.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

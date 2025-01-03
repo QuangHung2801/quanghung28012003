@@ -6,13 +6,14 @@
     <description>Recent content in Blogs on Blog Chia Sẻ Lập Trình</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 12:32:54 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/blog/list/_list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/list/_list/</guid>
-      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;vi&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;title&gt;Danh mục Bài Viết&lt;/title&gt;&#xA;    &lt;style&gt;&#xA;        .post-list {&#xA;            list-style: none;&#xA;            padding: 0;&#xA;        }&#xA;        .post-item {&#xA;            display: flex;&#xA;            align-items: flex-start;&#xA;            margin-bottom: 20px;&#xA;            border: 1px solid #ddd;&#xA;            border-radius: 8px;&#xA;            overflow: hidden;&#xA;        }&#xA;        .post-item img {&#xA;            width: 120px;&#xA;            height: 80px;&#xA;            object-fit: cover;&#xA;        }&#xA;        .post-content {&#xA;            padding: 10px;&#xA;        }&#xA;        .post-content a {&#xA;            font-size: 18px;&#xA;            font-weight: bold;&#xA;            color: #007bff;&#xA;            text-decoration: none;&#xA;        }&#xA;        .post-content a:hover {&#xA;            text-decoration: underline;&#xA;        }&#xA;        .post-content p {&#xA;            margin: 5px 0 0;&#xA;            color: #555;&#xA;        }&#xA;    &lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;    &lt;h1&gt;Danh mục Bài Viết&lt;/h1&gt;&#xA;    &lt;ul class=&#34;post-list&#34;&gt;&#xA;        &lt;li class=&#34;post-item&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/img/java-topic-advanced.png&#34; alt=&#34;Java Cơ Bản&#34;&gt;&#xA;            &lt;div class=&#34;post-content&#34;&gt;&#xA;                &lt;a href=&#34;http://localhost:1313/blog/javacoban/huong-dan-java&#34;&gt;Java Cơ Bản&lt;/a&gt;&#xA;                &lt;p&gt;Hướng dẫn cơ bản về ngôn ngữ Java dành cho người mới bắt đầu.&lt;/p&gt;</description>
+      <title>JavavaOOP</title>
+      <link>http://localhost:1313/blog/javavaoop/javavaoop/</link>
+      <pubDate>Fri, 27 Dec 2024 12:32:54 +0700</pubDate>
+      <guid>http://localhost:1313/blog/javavaoop/javavaoop/</guid>
+      <description>&lt;h1 id=&#34;giới-thiệu-về-oop-trong-java&#34;&gt;Giới thiệu về OOP trong Java:&lt;/h1&gt;&#xA;&lt;p&gt;Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên việc sử dụng các đối tượng và lớp để tổ chức mã nguồn. Java là một ngôn ngữ lập trình hướng đối tượng hoàn toàn, điều này có nghĩa là mọi thứ trong Java đều là một đối tượng, và mỗi đối tượng được tạo ra từ các lớp.&lt;/p&gt;&#xA;&lt;h1 id=&#34;các-nguyên-lý-cơ-bản-của-oop&#34;&gt;Các nguyên lý cơ bản của OOP:&lt;/h1&gt;&#xA;&lt;p&gt;Encapsulation (Đóng gói): Là việc ẩn giấu thông tin bên trong một lớp và chỉ cung cấp các phương thức để tương tác với dữ liệu của lớp đó. Điều này giúp bảo vệ dữ liệu khỏi các thay đổi ngoài ý muốn.&#xA;Inheritance (Kế thừa): Cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng mã nguồn và giảm thiểu sự trùng lặp.&#xA;Polymorphism (Đa hình): Cho phép các đối tượng của các lớp khác nhau có thể được xử lý thông qua cùng một phương thức hoặc lớp cơ sở.&#xA;Abstraction (Trừu tượng): Là việc che giấu các chi tiết triển khai và chỉ cung cấp các giao diện cần thiết để sử dụng.&#xA;Ví dụ mã nguồn đơn giản:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
