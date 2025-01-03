@@ -5,39 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh mục Bài Viết</title>
     <style>
-        .post-list {
-            list-style: none;
-            padding: 0;
-        }
-        .post-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .post-item img {
-            width: 120px;
-            height: 80px;
-            object-fit: cover;
-        }
-        .post-content {
-            padding: 10px;
-        }
-        .post-content a {
-            font-size: 18px;
-            font-weight: bold;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .post-content a:hover {
-            text-decoration: underline;
-        }
-        .post-content p {
-            margin: 5px 0 0;
-            color: #555;
-        }
+         .post-list {
+        list-style: none;
+        padding: 0;
+    }
+    .post-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px; /* Tăng khoảng cách giữa các mục */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 10px; /* Thêm khoảng cách bên trong */
+    }
+    .post-item img {
+        width: 180px; /* Tăng kích thước ảnh */
+        height: 120px;
+        object-fit: cover;
+        margin-right: 20px; /* Thêm khoảng cách giữa ảnh và nội dung */
+    }
+    .post-content {
+        padding: 10px;
+    }
+    .post-content a {
+        font-size: 22px; /* Tăng kích thước chữ tiêu đề */
+        font-weight: bold;
+        color: #007bff;
+        text-decoration: none;
+    }
+    .post-content a:hover {
+        text-decoration: underline;
+    }
+    .post-content p {
+        margin: 10px 0 0; /* Tăng khoảng cách giữa đoạn văn */
+        color: #555;
+        font-size: 18px; /* Tăng kích thước chữ mô tả */
+    }
     </style>
 </head>
 <body>
