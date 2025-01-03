@@ -73,21 +73,63 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/blog/javavaoop/javavaoop/" rel="bookmark">
-			JavavaOOP
+			<a href="/blog/list/_list/" rel="bookmark">
+			
 			</a>
 		</h2>
 		
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		<h1 id="giới-thiệu-về-oop-trong-java">Giới thiệu về OOP trong Java:</h1>
-<p>Lập trình hướng đối tượng (OOP) là một phương pháp lập trình dựa trên việc sử dụng các đối tượng và lớp để tổ chức mã nguồn. Java là một ngôn ngữ lập trình hướng đối tượng hoàn toàn, điều này có nghĩa là mọi thứ trong Java đều là một đối tượng, và mỗi đối tượng được tạo ra từ các lớp.</p>
-<h1 id="các-nguyên-lý-cơ-bản-của-oop">Các nguyên lý cơ bản của OOP:</h1>
-<p>Encapsulation (Đóng gói): Là việc ẩn giấu thông tin bên trong một lớp và chỉ cung cấp các phương thức để tương tác với dữ liệu của lớp đó. Điều này giúp bảo vệ dữ liệu khỏi các thay đổi ngoài ý muốn.
-Inheritance (Kế thừa): Cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng mã nguồn và giảm thiểu sự trùng lặp.
-Polymorphism (Đa hình): Cho phép các đối tượng của các lớp khác nhau có thể được xử lý thông qua cùng một phương thức hoặc lớp cơ sở.
-Abstraction (Trừu tượng): Là việc che giấu các chi tiết triển khai và chỉ cung cấp các giao diện cần thiết để sử dụng.
-Ví dụ mã nguồn đơn giản:</p>
+		<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục Bài Viết</title>
+    <style>
+        .post-list {
+            list-style: none;
+            padding: 0;
+        }
+        .post-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .post-item img {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+        }
+        .post-content {
+            padding: 10px;
+        }
+        .post-content a {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .post-content a:hover {
+            text-decoration: underline;
+        }
+        .post-content p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh mục Bài Viết</h1>
+    <ul class="post-list">
+        <li class="post-item">
+            <img src="/img/java-topic-advanced.png" alt="Java Cơ Bản">
+            <div class="post-content">
+                <a href="/blog/javacoban/huong-dan-java">Java Cơ Bản</a>
+                <p>Hướng dẫn cơ bản về ngôn ngữ Java dành cho người mới bắt đầu.</p>
 	</div>
 </article>
 </main>

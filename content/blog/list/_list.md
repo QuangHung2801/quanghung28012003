@@ -51,14 +51,14 @@
             </div>
         </li>
         <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="JavaScript Cơ Bản">
+            <img src="/img/javascript1.jpg" alt="JavaScript Cơ Bản">
             <div class="post-content">
                 <a href="/blog/javascriptcoban/huong-dan-javascript">JavaScript Cơ Bản</a>
                 <p>Khám phá JavaScript cơ bản và cách sử dụng nó trong phát triển web.</p>
             </div>
         </li>
         <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="Giới thiệu về Java">
+            <img src="/img/java1.jpg" alt="Giới thiệu về Java">
             <div class="post-content">
                 <a href="/blog/gioithieujava/gioi-thieu-java">Giới thiệu về Java</a>
                 <p>Lịch sử và ứng dụng của Java trong các lĩnh vực lập trình.</p>
@@ -72,28 +72,28 @@
             </div>
         </li>
          <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="Giới thiệu hướng dẫn lập trình java game">
+            <img src="/img/game.jpg" alt="Giới thiệu hướng dẫn lập trình java game">
             <div class="post-content">
                 <a href="/blog/huongdanlaptrinhgamejava/game">Giới thiệu về lập trình java game</a>
                 <p>Những điều bạn cần biết khi lập trình bằng java.</p>
             </div>
         </li>
          <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="Giới thiệu về Dom">
+            <img src="/img/dom.jpg" alt="Giới thiệu về Dom">
             <div class="post-content">
                 <a href="/blog/javacriptdom/dom">Giới thiệu về Dom</a>
                 <p>Những điều bạn cần biết về dom của javascript.</p>
             </div>
         </li>
          <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="Giới thiệu về JavaScript">
+            <img src="/img/async.jpg" alt="Giới thiệu về JavaScript">
             <div class="post-content">
                 <a href="/blog/JavaScriptAsyncandPromise/asyncandpromise">Giới thiệu về Javascript Async và Promise</a>
                 <p>Những điều bạn cần biết về async và promise.</p>
             </div>
         </li>
          <li class="post-item">
-            <img src="/img/java-topic-advanced.png" alt="Giới thiệu về Java và OOP">
+            <img src="/img/oop.jpg" alt="Giới thiệu về Java và OOP">
             <div class="post-content">
                 <a href="/blog/JavavaOOP/JavavaOOP">Giới thiệu về Java và OOP</a>
                 <p>Những điều bạn cần biết về lập trình hướng đối tượng.</p>
